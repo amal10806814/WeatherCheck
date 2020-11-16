@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Weather_Assignment" verbose="1" thread-count="2">
+
+   <test name="Weather_Test">
+
+      <classes>
+          <class name="org.automation.WeatherTest"></class>
+       </classes>
+   </test>
+</suite>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27439" started-at="2020-09-25T11:40:05Z" finished-at="2020-09-25T11:40:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27439" started-at="2020-09-25T11:40:05Z" finished-at="2020-09-25T11:40:32Z">
+      <class name="org.automation.WeatherTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:org.automation.WeatherTest@80503]" name="launchBrowser" is-config="true" duration-ms="16282" started-at="2020-09-25T17:10:05Z" finished-at="2020-09-25T17:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="checkWeatherDiffTest()[pri:0, instance:org.automation.WeatherTest@80503]" name="checkWeatherDiffTest" duration-ms="9894" started-at="2020-09-25T17:10:21Z" description="check weather difference from UI and Get API" finished-at="2020-09-25T17:10:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkWeatherDiffTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:org.automation.WeatherTest@80503]" name="getResult" is-config="true" duration-ms="35" started-at="2020-09-25T17:10:31Z" finished-at="2020-09-25T17:10:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkWeatherDiffTest status=SUCCESS method=WeatherTest.checkWeatherDiffTest()[pri:0, instance:org.automation.WeatherTest@80503] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.automation.WeatherTest@80503]" name="tearDown" is-config="true" duration-ms="1183" started-at="2020-09-25T17:10:31Z" finished-at="2020-09-25T17:10:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.automation.WeatherTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
